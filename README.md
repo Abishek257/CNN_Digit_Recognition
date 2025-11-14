@@ -57,9 +57,9 @@ Training and evaluation steps are included inside the notebook with clear explan
 
 1️⃣ **Clone the Repository**
 
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/Abishek257/CNN_Digit_Recognition.git
 
-cd your-repo-name
+cd CNN_Digit_Recognition
 
 2️⃣ **Install Dependencies**
 
