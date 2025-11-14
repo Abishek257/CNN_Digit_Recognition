@@ -18,8 +18,11 @@ This project demonstrates how to build, train, evaluate, and save a Convolutiona
 The model was trained using TensorFlow/Keras, and the repository includes the complete workflow from data preprocessing to saving the best-performing model.
 
 📂**Repository Structure**
+
 ├── CNN.ipynb        # Full training & evaluation notebook
+
 ├── bestmodel.h5     # Saved trained CNN model
+
 └── README.md        # Project documentation
 
 🧰 **Features**
@@ -51,8 +54,11 @@ Softmax output for multi-class classification
 Training and evaluation steps are included inside the notebook with clear explanations and plots.
 
 ▶️ **How to Use**
+
 1️⃣ **Clone the Repository**
+
 git clone https://github.com/yourusername/your-repo-name.git
+
 cd your-repo-name
 
 2️⃣ **Install Dependencies**
@@ -68,8 +74,10 @@ Open the notebook using Jupyter or Colab:
 jupyter notebook CNN.ipynb
 
 4️⃣ **Load the Trained Model (Optional)**
+
 from tensorflow.keras.models import load_model
 
 model = load_model("bestmodel.h5")
+
 predictions = model.predict(x_test)
 
